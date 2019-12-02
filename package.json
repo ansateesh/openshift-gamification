@@ -7,8 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc mocha test/**/testProducts*.js",
-    "start": " nodemon koolappserver.js"
+    "start": "node koolappserver.js"
   },
   "author": "Sateesh AN",
   "license": "ISC",
