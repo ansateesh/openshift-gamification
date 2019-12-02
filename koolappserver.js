@@ -15,7 +15,7 @@ var httpContext = require('express-http-context');
 
 //App Attributes Env Values
 var appContextPath = '/v1'
-var appPort = 80
+var appPort = 8080
 
 //Server Config
 app.use(express.json({ limit: '50mb' }));
